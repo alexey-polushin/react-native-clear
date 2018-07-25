@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import { View, Text } from 'react-native';
 
 class Main extends Component {
-  static navigationOptions = null
+  static navigationOptions = {
+    header: null,
+  };
 
   render() {
     return (
